@@ -11,7 +11,11 @@ M.override = {
   },
 
   NvDashAscii = {
-    fg = "purple",
+    fg = "white",
+    bg = "none",
+  },
+
+  NvDashButtons = {
     bg = "none",
   },
 }

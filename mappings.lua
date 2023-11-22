@@ -11,6 +11,17 @@ M.general = {
   },
 }
 
+M.tabufline = {
+  n = {
+    ["<leader>X"] = {
+      function()
+        require("nvchad.tabufline").closeAllBufs()
+      end,
+      "close all buffers",
+    },
+  },
+}
+
 -- more keybinds!
 
 return M
